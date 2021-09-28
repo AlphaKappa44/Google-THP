@@ -1,55 +1,146 @@
+body {
+  height: 100vh;;
+}
+main {
+  width: auto;
+  height: 80vh;
+  font-style: roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
 header {
-    text-align: right;
-  }
+  display: flex;
+	flex-direction: column;
+	height: 10vh;
 
-#button_1{
-    color: #4285F4;
 }
 
-  body{
-    font-style: roboto;
-   
-  }
+#button_1 {
+  color: #4285f4;
+}
 
-  div {
-    border: 5px solid none;
-   
-  }
+.nav {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+div {
+  border: 5px solid none;
+}
+
 .logo {
-    text-align: center;
-    align-items: center;
+  margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 
-    }
-.recherche {
-    text-align: center;
-    align-items: center;
 }
+.recherche {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+main > div > button {
+  border-radius: 5px;
+  margin: 15px 15px;
+}
+
+
+input {
+  margin-bottom: 20px;
+  width: 60vw;
+  height: 40px;
+  border-radius: 20px;
+ }
 
 .gestes {
-    text-align: center;
-    
+  margin-top: 20px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+footer {
+  height: 20vh;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+  bottom: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 242, 242);
+}
+
+.france {
+  width: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+}
+
+footer-links {
+	display: flex;
+	
+	flex-wrap: nowrap;
+	justify-content: space-between;
+
 }
 
 
-
-
-footer{
-    color: #F2F2F2;
-    bottom: 40px;
-    margin-bottom: 40px;
-    align-items: flex-end;
-   
-}
 
 .section_1 {
-    display: flex;
-    float: left;
-    
-} 
+  height: 5vh;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  justify-content: flex-start;
+  flex-direction: row;
+}
 .section_2 {
-    display: flex;
-    float: right;
-} 
-.section1, div {
-margin-left: auto;
+  height: 5vh;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+
+
+a, button {
+  margin: 10px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border: none;
+  color: rgba(0,0,0,0.87);
+}
+
+.search {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
